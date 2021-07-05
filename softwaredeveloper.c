@@ -72,7 +72,6 @@ int main()
     printf("\nMasukkan jumlah Data   : ");
     scanf("%d",&n);
 
-   // printf("\nEnter the elements for array_1..\n");
     for(i=0 ; i<n ; i++)
     {
         printf("masukkan bilangan ke-%d : ",i+1);
@@ -83,7 +82,6 @@ int main()
     Array_sort(array_1 , n);
 
     // Now pass the sorted array to calculate
-    // the median of your array.
     median = Find_median(array_1 , n);
     mean   = findMean(array_1, n);
     kali   = multiply(array_1,n);
